@@ -21,8 +21,8 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ljg.ganggangweather.bean.CityShip;
-import com.ljg.ganggangweather.bean.WeatherBean;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.WeatherBean;
 import com.ljg.ganggangweather.txweather.TxCityLocationListener;
 import com.ljg.ganggangweather.txweather.TxCityRequestListener;
 import com.ljg.ganggangweather.txweather.TxLocationHelper;
@@ -160,7 +160,7 @@ public class SearchCityActivity extends AppCompatActivity {
             builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Intent intent=new Intent(SearchCityActivity.this,CityManageAcitivity.class);
+                    Intent intent=new Intent(SearchCityActivity.this, CityManageActivity.class);
                     intent.putExtra("cityShip",cityShip);
                     intent.putExtra("weatherBean",weatherBean);
                     intent.putExtra("opcode",OPCODE_ADD);
@@ -202,7 +202,7 @@ public class SearchCityActivity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if(keyCode==KeyEvent.KEYCODE_BACK){
-            Intent intent=new Intent(SearchCityActivity.this,CityManageAcitivity.class);
+            Intent intent=new Intent(SearchCityActivity.this, CityManageActivity.class);
             intent.putExtra("opcode",OPCODE_NONE);
             setResult(RESULT_OK,intent);
             finish();

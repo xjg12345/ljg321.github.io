@@ -1,7 +1,7 @@
 package com.ljg.ganggangweather.txweather;
 
-import com.ljg.ganggangweather.bean.CityShip;
-import com.ljg.ganggangweather.bean.WeatherBean;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.WeatherBean;
 
 public interface TxWeatherRequestListener {
     void onSuccess(CityShip cityShip, WeatherBean weatherBean);

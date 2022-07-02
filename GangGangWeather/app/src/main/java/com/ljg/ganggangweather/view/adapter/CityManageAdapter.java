@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.ljg.ganggangweather.bean.CityDetailBean;
+import com.ljg.ganggangweather.bean.txbean.CityDetailBean;
 import com.ljg.ganggangweather.db.CityDatabaseHelper;
 import com.ljg.ganggangweather.R;
 

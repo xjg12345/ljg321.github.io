@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ljg.ganggangweather.view.activity.CityManageAcitivity">
+    tools:context="com.ljg.ganggangweather.view.activity.CityManageActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tb_city_manage"
         android:layout_width="match_parent"

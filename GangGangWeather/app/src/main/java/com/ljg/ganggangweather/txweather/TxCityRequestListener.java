@@ -1,6 +1,6 @@
 package com.ljg.ganggangweather.txweather;
 
-import com.ljg.ganggangweather.bean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
 
 import java.util.List;
 

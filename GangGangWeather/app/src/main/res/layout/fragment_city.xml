@@ -45,7 +45,8 @@
                 android:layout_below="@id/layout_index"
                 android:gravity="center"
                 android:textColor="@color/colorWhite"
-                android:text="2020080908013 @俊钢"
+                android:textSize="20dp"
+                android:text="欢迎使用刚刚天气，祝大家开心每一天哟！"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"></TextView>
         </RelativeLayout>

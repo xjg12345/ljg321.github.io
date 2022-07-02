@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -17,6 +17,14 @@
         <item name="android:textColor" >@color/colorWhite</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="button_large_black" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_bg_black</item>
     </style>
 
 </resources>

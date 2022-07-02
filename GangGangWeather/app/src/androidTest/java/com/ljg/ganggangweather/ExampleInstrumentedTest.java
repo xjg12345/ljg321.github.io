@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.yize.miniweather", appContext.getPackageName());
+        assertEquals("com.ljg.ganggangweather", appContext.getPackageName());
     }
 }

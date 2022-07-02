@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ljg.ganggangweather.bean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
 import com.ljg.ganggangweather.txweather.TxWeatherHelper;
 import com.ljg.ganggangweather.txweather.TxWeatherRequestListener;
 import com.ljg.ganggangweather.R;

@@ -16,8 +16,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.ljg.ganggangweather.bean.CityDetailBean;
-import com.ljg.ganggangweather.bean.WeatherBean;
+import com.ljg.ganggangweather.bean.txbean.CityDetailBean;
+import com.ljg.ganggangweather.bean.txbean.WeatherBean;
 import com.ljg.ganggangweather.db.CityDatabaseHelper;
 import com.ljg.ganggangweather.txweather.TxWeatherHelper;
 import com.ljg.ganggangweather.util.AsyncHttpRequestListener;

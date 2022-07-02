@@ -3,7 +3,7 @@ package com.ljg.ganggangweather.txweather;
 import android.content.Context;
 import android.util.Log;
 
-import com.ljg.ganggangweather.bean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
 import com.tencent.map.geolocation.TencentLocation;
 import com.tencent.map.geolocation.TencentLocationListener;
 import com.tencent.map.geolocation.TencentLocationManager;

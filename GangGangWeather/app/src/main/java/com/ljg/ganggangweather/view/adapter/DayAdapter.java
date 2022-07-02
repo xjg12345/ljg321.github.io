@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.ljg.ganggangweather.bean.WeatherBean;
+import com.ljg.ganggangweather.bean.txbean.WeatherBean;
 import com.ljg.ganggangweather.txweather.TxWeatherHelper;
 import com.ljg.ganggangweather.util.DateHelper;
 import com.ljg.ganggangweather.R;

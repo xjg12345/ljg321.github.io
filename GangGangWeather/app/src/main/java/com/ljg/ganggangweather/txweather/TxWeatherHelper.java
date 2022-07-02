@@ -1,9 +1,9 @@
 package com.ljg.ganggangweather.txweather;
 
 import com.google.gson.Gson;
-import com.ljg.ganggangweather.bean.CityDetailBean;
-import com.ljg.ganggangweather.bean.CityShip;
-import com.ljg.ganggangweather.bean.WeatherBean;
+import com.ljg.ganggangweather.bean.txbean.CityDetailBean;
+import com.ljg.ganggangweather.bean.txbean.CityShip;
+import com.ljg.ganggangweather.bean.txbean.WeatherBean;
 import com.ljg.ganggangweather.util.AsyncHttpRequestListener;
 import com.ljg.ganggangweather.util.HttpAsyncTaskHelper;
 

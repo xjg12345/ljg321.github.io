@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
-
+//SQLiteOpenHelper帮助类，借助这个类就可以非常简单地对数据库进行创建和升级
 public class CityDatabase extends SQLiteOpenHelper {
     public static final String TABLE_NAME="citys";
     public static final String ID="id";
@@ -13,9 +13,9 @@ public class CityDatabase extends SQLiteOpenHelper {
     public static final String PROVINCE_NAME="province";
     public static final String CITY_NAME="city";
     public static final String COUNTRY_NAME="country";
-    public static final String MIN_TEMP="minTemp";
-    public static final String MAX_TEMP="maxTemp";
-    public static final String WEATHER_DESC="weatherDesc";
+    public static final String MIN_TEMP="minTemp"; //最低气温
+    public static final String MAX_TEMP="maxTemp"; //最高气温
+    public static final String WEATHER_DESC="weatherDesc"; //天气描述
     public static final String WEATHER_CODE="weatherCode";
     public static final String LAST_UPDATE="lastUpdate";
 

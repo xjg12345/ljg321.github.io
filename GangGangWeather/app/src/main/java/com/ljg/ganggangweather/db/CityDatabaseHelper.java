@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.ljg.ganggangweather.bean.CityDetailBean;
+import com.ljg.ganggangweather.bean.txbean.CityDetailBean;
 
 import java.util.ArrayList;
 import java.util.List;

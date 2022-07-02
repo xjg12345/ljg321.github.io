@@ -1,7 +1,5 @@
 # GangGangWeather
 
-by 亦泽
-
 ---
 
 GangGangWeather 是抓取腾讯天气API之后，制作的一款中颜值天气APP

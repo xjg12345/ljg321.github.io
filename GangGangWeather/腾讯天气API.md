@@ -35,7 +35,7 @@ GET请求后面的weather_type内容参数之间用 | 分割，然后再进行UR
 
 请求示例
 
-    https://wis.qq.com/city/like?source=pc&city=临沂
+    https://wis.qq.com/city/like?source=pc&city=兰
 
 请求结果示例
 
